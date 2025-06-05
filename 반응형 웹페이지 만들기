@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>이은솔 - 포트폴리오</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Pretendard', sans-serif;
+      background: #f4f6fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6c63ff, #928bff);
+      color: white;
+      padding: 60px 20px 40px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 6px solid #6c63ff;
+      object-fit: cover;
+      transition: 0.3s ease;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #6c63ff;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #6c63ff;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .profile img {
+        width: 90%;
+        height: auto;
+        border-radius: 12px;
+        border: 4px solid #6c63ff;
+      }
+
+      section {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>이은솔</h1>
+    <p>경영학, 소프트웨어학 복수전공 | 가천대학교 3학년 | GPA: 4.07 / 4.50</p>
+  </header>
+
+  <div class="container">
+    <div class="profile">
+      <img src="증명사진.jpg" alt="이은솔 프로필 사진">
+    </div>
+
+    <section class="contact">
+      <h2>연락처</h2>
+      <p>📞 010-5844-3932</p>
+      <p>📷 <a href="https://www.instagram.com/e_unso1?igsh=bzR5ejU3ZDFvbmlw&utm_source=qr" target="_blank">Instagram @e_unso1</a></p>
+    </section>
+
+    <section>
+      <h2>자격증</h2>
+      <ul>
+        <li>자동차운전면허 1종 보통 (2023.01.25)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>컴퓨터 활용능력</h2>
+      <ul>
+        <li>EXCEL: 상</li>
+        <li>WORD: 중</li>
+        <li>POWERPOINT: 중</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>경력 및 활동</h2>
+      <ul>
+        <li>
+          <strong>Kypa 라오스 해외봉사 9기 스태프</strong><br>
+          &nbsp;&nbsp;- 라오스 초등학생 대상 교육 봉사 프로그램 운영 및 현지 수업 진행 지원<br>
+          &nbsp;&nbsp;- 봉사단 전체 일정 관리 및 팀 간 조율 등 스태프 역할 수행<br>
+          &nbsp;&nbsp;- 교육 콘텐츠 제작 및 문화 교류 활동 기획을 통해 책임감과 조직 운영 역량 향상<br>
+          &nbsp;&nbsp;- 현지 아동과의 지속적인 교류를 통해 공감 능력 및 소통 역량 강화
+		<div style="display: flex; justify-content: center; margin-top: 15px;">
+  <div style="
+    background-color: white;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+  ">
+    <img src="라오스 해외봉사 수료증.jpg" alt="라오스 봉사활동 사진" style="
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      display: block;
+    " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+  </div>
+</div>
+
+
+        </li>
+        <li>
+          <strong>도서관 정리 및 자료 배가 봉사</strong><br>
+          &nbsp;&nbsp;- 도서 자료 정리, 분류 및 배가 업무 지원<br>
+          &nbsp;&nbsp;- 열람실 및 서가 정돈 등 도서관 내 환경 정리 업무 수행<br>
+          &nbsp;&nbsp;- 이용자 편의를 고려한 정리정돈 및 질서 유지에 기여
+        </li>
+        <li>
+          <strong>아동 학습 및 생활 지도 보조 봉사</strong><br>
+          &nbsp;&nbsp;- 초등학생 대상 학습 지도 및 과제 수행 지원<br>
+          &nbsp;&nbsp;- 생활 지도 및 놀이 활동 보조를 통해 아동의 일상 적응 도우미 역할 수행
+        </li>
+        <li>
+          <strong>경영학부 학술동아리 MAD</strong><br>
+          &nbsp;&nbsp;- 동아비즈니스리뷰(DBR) 주요 경영 트렌드 및 사례 관련 기사 탐구 및 정기 발표<br>
+          &nbsp;&nbsp;- 경영 전략, 마케팅, 조직관리 등 다양한 주제를 바탕으로 발표 자료 기획 및 발표 진행<br>
+          &nbsp;&nbsp;- 팀원들과의 주1회 세미나를 통해 시사적 이슈에 대한 토론 및 비판적 사고 역량 강화
+        </li>
+        <li>
+          <strong>요식업 홀서빙</strong><br>
+          &nbsp;&nbsp;- 고객 안내 및 주문 접수, 음식 서빙 등 전반적인 홀 운영 업무 수행<br>
+          &nbsp;&nbsp;- 고객 문의 및 요청사항 응대, 컴플레인 처리 등 고객 만족도 제고에 기여<br>
+          &nbsp;&nbsp;- 테이블 회전율 관리 및 대기 고객 응대, 쾌적한 매장 환경 유지<br>
+          &nbsp;&nbsp;- POS 시스템 활용한 결제 처리
+        </li>
+        <li>
+          <strong>투썸플레이스 바리스타</strong><br>
+          &nbsp;&nbsp;- 음료 제조 및 서비스<br>
+          &nbsp;&nbsp;- 고객 응대 및 주문 처리, 불만 대응 등 서비스 품질 유지 및 고객 만족도 향상 기여
+        </li>
+        <li>
+          <strong>입시학원 조교 및 마케팅 업무</strong><br>
+          &nbsp;&nbsp;- 학부모 상담, 콘텐츠 제작, 온라인 홍보
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>성격 및 포부</h2>
+      <p>
+        저는 공감과 책임을 중요하게 생각하며, 팀워크를 바탕으로 협업하는 것을 좋아합니다.  
+        다양한 경험을 통해 마케팅과 교육 분야에 대한 이해를 넓혔고,  
+        앞으로는 사람 중심의 가치를 실현하는 조직에서 저의 역량을 발휘하고 싶습니다.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 이은솔. All rights reserved.
+  </footer>
+
+</body>
+</html>
